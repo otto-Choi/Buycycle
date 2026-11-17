@@ -4,28 +4,5 @@
       "Read(./.env)",
       "Read(./.env.*)"
     ]
-  },
-  "hooks": {
-    "PostToolUse": [
-      {
-        "matcher": "Edit|Write",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash .claude/hooks/mark-pending.sh"
-          }
-        ]
-      }
-    ],
-    "Stop": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash .claude/hooks/check-log.sh"
-          }
-        ]
-      }
-    ]
   }
 }

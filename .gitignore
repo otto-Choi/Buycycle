@@ -26,5 +26,6 @@ venv/
 # Logs
 *.log
 
-# Claude hook marker
-.claude/.log-pending
+
+# 증권사 배포 참고 코드
+docs/reference/

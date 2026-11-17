@@ -2,7 +2,7 @@
 
 한국투자증권(KIS) Open API로 ISA 계좌의 ETF를 매달 초 목표 비중에 맞춰 자동 매수하는 시스템.
 
-- 스택: Python(FastAPI) + React, 스케줄러 포함
+- 스택: Python(FastAPI), SQLite + SQLAlchemy, React, OS 스케줄러
 - 월 기본 투자금 150만원, 여윳돈 추가 납입 가능
 - 매수는 목표 비중에 부족한 종목부터 채우는 방식(매도 없음)
 - 매수 계획, 매수 직전, 체결을 텔레그램으로 알림
@@ -20,7 +20,7 @@ Buycycle/
 ├── output/                    산출물
 ├── docs/                      문서 (작업 로그, 의사결정 기록)
 ├── memory/                    프로젝트 기록 (memory.md가 목차)
-└── .claude/                   Claude Code 설정 (rules, skills, agents, hooks)
+└── .claude/                   Claude Code 설정 (rules, skills)
 ```
 
 ## 문서

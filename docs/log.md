@@ -25,3 +25,8 @@
 - 예시로 만든 `.claude/agents/code-reviewer.md` 삭제 (현재 불필요)
 - `docs/claude-workflow.md` 작성(Sonnet/Opus 운영, compact·handoff 절차, 예정 훅), `docs/decisions.md`에 D-006 추가. 훅과 설정은 구현하지 않음
 - `.claude/rules/coding-style.md`(주석 규칙) 작성, `docs/decisions.md`에 D-007 추가
+- `.gitignore`에 `docs/reference/` 추가. `docs/plan.md` 개편(기술 스택·뼈대를 1단계로 앞당김, 매수 계산 알고리즘 구체화, 자동/수동 구분과 체결 기록, 미체결 재시도, 연간 납입한도는 추후 방향으로 이동). handoff 관련 내용 제거. `docs/decisions.md`에 D-005, D-008~D-010 추가
+- 로그 훅과 `.claude/hooks/` 제거, `settings.json`은 권한 설정만 남김. `documentation.md`의 로그 규칙을 기능 단위 기록으로 변경. D-011 추가
+- 매수량 계산을 1주씩 한계 개선 매수(절대금액 오차)로 변경: `docs/plan.md` 2단계 개편, D-012 추가
+- 훅·하네스 잔여물 정리: `.claude/.log-pending`, 빈 `.mcp.json` 삭제, README의 .claude 설명 수정
+- 기술 스택 확정(D-013)과 프로세스 분리·OS 스케줄러·LLM 미사용(D-014) 반영: `docs/plan.md`(1·7단계, 추후 방향), README, CLAUDE.md 갱신
