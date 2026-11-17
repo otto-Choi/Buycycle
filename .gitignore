@@ -25,3 +25,6 @@ venv/
 
 # Logs
 *.log
+
+# Claude hook marker
+.claude/.log-pending
