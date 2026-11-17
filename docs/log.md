@@ -15,3 +15,4 @@
 - `.claude/settings.json`(권한: .env 읽기 차단, Stop 훅), `.claude/hooks/check-log.sh` 추가
 - `.claude/agents/code-reviewer.md`, `.mcp.json`(빈 설정), `.claude/rules/{frontend,backend}.md`(paths frontmatter) 추가
 - `docs/decisions.md`에 D-003(Stop 훅으로 log 강제) 추가
+- 불필요한 `docs/.gitkeep` 삭제, `README.md` 추가
